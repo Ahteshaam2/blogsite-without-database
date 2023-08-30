@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  header , footer {
+    background-color: #fd9843;
+ 
+   
+  }
+  .nav{
+    margin-right: 50px;
+    
+  }
+  .nav li a{
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fd9843;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
+  

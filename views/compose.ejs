@@ -1,0 +1,16 @@
+<%-include('header.ejs') %>
+<div class="container">
+    <h1>Compose</h1>
+    <form action="/publish" method="post">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Title</label>
+          <input type="text" class="form-control" name="posttitle" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Post</label>
+            <textarea class="form-control" name="post" rows="7"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Publish</button>
+      </form>
+</div>
+<%-include('footer.ejs')%>
